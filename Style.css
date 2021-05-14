@@ -1,0 +1,116 @@
+body{
+    background: #19a1ad;
+    background-image:  url("bg-pattern-top.svg"), url("bg-pattern-bottom.svg");
+    background-position:0px -400px, 1040px 500px;
+    background-repeat: no-repeat, no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+    height: 100vh;
+    margin:0;
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    grid-template-columns: 1fr;
+ 
+}
+
+section{
+   
+    grid-row: 2/3;
+    display: grid;
+    grid-template-rows: 1fr 1fr 20%;
+    grid-template-columns: 1fr;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    
+}
+
+section header{
+    grid-row: 1/2;
+    background-image:  url("bg-pattern-card.svg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    position: relative;
+}
+
+section main{
+    font-size: 20px;
+    background: #ffffff;
+ 
+ 
+
+}
+
+section footer{
+   
+    background: #ffffff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top:2px solid #efefef;
+    
+
+  
+}
+
+section header img{
+    border-radius: 50%;
+    position: absolute;
+    border: 6px solid #ffffff;
+    margin-top: 130px;
+    margin-left: 200px;
+}
+
+section footer ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+section main .name{
+    position: absolute;
+    width: 150px;
+    margin-left: 190px;
+    margin-top: 80px;
+}
+
+section main .city{
+    position: absolute;
+    width: 80px;
+    margin-left: 220px;
+    margin-top: 120px;
+}
+
+
+section footer .numbers li{
+    font-weight: bold;
+    font-size:20px ;
+    margin: 0;
+    padding: 0 40px;
+    display: inline-block;
+    line-height: 30px;
+  }
+
+  section footer .numbers li:last-child{
+      padding: 0 5px;
+  }
+  
+section footer .details li{
+
+    font-size:15px ;
+    margin:0;
+    padding: 0 30px;
+    display: inline-block;
+    line-height: 30px;
+  }
+
+  section footer .details{
+  margin: 0;
+  margin-left: 80px;
+  margin-top:-10px;
+   
+  }
+
+  section footer .numbers{
+   margin-bottom: 5px;
+  margin-left: 80px;
+      
+  }
